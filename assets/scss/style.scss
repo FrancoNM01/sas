@@ -2,7 +2,7 @@
 
 .parrafo{
     padding: 10px;
-    
+    color: $colorBlanco;
         font-size: 20px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-transform:uppercase
@@ -37,7 +37,7 @@
                 }       
         .parrafoC{
             padding: 18px;
-            
+            color: $colorBlanco;
                 font-size: 25px;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 text-align: center;
@@ -48,7 +48,17 @@
         .campeones{
             display: flex;
             justify-content: center;
-           
+            color: $colorBlanco;
             font-size: 50px;
             font-family:fantasy
         }                         
+body{
+    background-color: $colorFondo;
+}        
+
+.containerDos{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-bottom: 50px; 
+}
